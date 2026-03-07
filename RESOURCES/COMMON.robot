@@ -1,10 +1,10 @@
 *** Settings ***
 Library        BuiltIn
 Library        SeleniumLibrary
-Library        Requests
+Library        RequestsLibrary
 Resource       ${EXECDIR}${/}CONFIG${/}SELENIUM_CONFIG.robot
 Resource       ${EXECDIR}${/}CONFIG${/}URLS.robot
-Variables      ${EXECDIR}${/}CONFIG${/}SPIELS${/}spiels_homepage.py
+Variables      ${EXECDIR}${/}CONFIG${/}SPIELS${/}spiels_home.py
 Variables      ${EXECDIR}${/}CONFIG${/}SPIELS${/}spiels_product_features.py
 Variables      ${EXECDIR}${/}CONFIG${/}SPIELS${/}spiels_pricing.py
 Variables      ${EXECDIR}${/}CONFIG${/}SPIELS${/}spiels_help_centre.py
@@ -31,7 +31,7 @@ Wait For Element Then Get Text
     [Arguments]                         ${element_selector}
     Wait Until Element Is Visible       ${element_selector}
     ${text}                             Get Text                    ${element_selector}
-    [Return]                            ${text}
+    RETURN                              ${text}
 
 Select From Menu Bar Dropdown
     [Documentation]                     Selects an option from the given dropdown

@@ -5,5 +5,5 @@ COMPONENT_MENU_BAR = {
     "BUTTON_MENU_PRICING": "xpath://li[@id='mega-menu-item-42473']/a[@class='mega-menu-link'][contains(text(),'Pricing')]",
     "BUTTON_SUB_MENU_PRICING": "css:#mega-menu-item-42473 .mega-sub-menu #mega-menu-item-81467",
     "BUTTON_MENU_RESOURCES": "xpath://li[@id='mega-menu-item-36549']/a[@class='mega-menu-link'][contains(text(),'Resources')]",
-    "BUTTON_SUB_MENU_RESOURCES": "css:#mega-menu-item-36549 .mega-sub-menu #mega-menu-item-55147"
+    "BUTTON_SUB_MENU_HELP_CENTRE": "css:#mega-menu-item-36549 .mega-sub-menu #mega-menu-item-55147"
 }

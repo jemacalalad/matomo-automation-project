@@ -1,3 +1,9 @@
+# Robot Framework Results
+RESULTS/
+log.html
+report.html
+output.xml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
