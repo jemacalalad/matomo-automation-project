@@ -72,8 +72,8 @@ MATOMO-AUTOMATION-PROJECT
     - Details: An interactive interface showing more details of the test execution results
 
 ## Known Limitations
-The automated tests will have failures due to certain URLs having 403 and 999 HTTP errors - which is the additional security layer of these applications for automated web crawling methods/requests.
-    - https://www.capterra.com/p/182627/Matomo-Analytics/
-    - https://www.softwareadvice.com/bi/matomo-profile/reviews/
-    - https://www.getapp.com.au/software/2053481/matomo
-    - https://www.linkedin.com/company/matomo
+The automated tests will have failures due to certain URLs having 403 and 999 HTTP errors - which are the additional security layers of these applications for automated web crawling methods/requests.
+- https://www.capterra.com/p/182627/Matomo-Analytics/
+- https://www.softwareadvice.com/bi/matomo-profile/reviews/
+- https://www.getapp.com.au/software/2053481/matomo
+- https://www.linkedin.com/company/matomo
