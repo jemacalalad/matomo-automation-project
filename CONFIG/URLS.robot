@@ -4,3 +4,4 @@ ${SUT_PATH_FREE_TRIAL}          /start-free-analytics-trial/
 ${SUT_PATH_PRODUCT_FEATURES}    /product-features/
 ${SUT_PATH_PRICING}             /pricing/
 ${SUT_PATH_HELP_CENTRE}         /help/
+${SUT_PATH_WEB_TRAINING}        /web-analytics-training/

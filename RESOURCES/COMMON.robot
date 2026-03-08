@@ -10,11 +10,13 @@ Variables      ${EXECDIR}${/}CONFIG${/}SPIELS${/}spiels_home.py
 Variables      ${EXECDIR}${/}CONFIG${/}SPIELS${/}spiels_product_features.py
 Variables      ${EXECDIR}${/}CONFIG${/}SPIELS${/}spiels_pricing.py
 Variables      ${EXECDIR}${/}CONFIG${/}SPIELS${/}spiels_help_centre.py
+Variables      ${EXECDIR}${/}CONFIG${/}SPIELS${/}spiels_web_training.py
 Variables      ${EXECDIR}${/}RESOURCES${/}RESOURCE_MAPPING${/}COMPONENTS${/}component_menu_bar.py
 Variables      ${EXECDIR}${/}RESOURCES${/}RESOURCE_MAPPING${/}PAGES${/}page_home.py
 Variables      ${EXECDIR}${/}RESOURCES${/}RESOURCE_MAPPING${/}PAGES${/}page_product_features.py
 Variables      ${EXECDIR}${/}RESOURCES${/}RESOURCE_MAPPING${/}PAGES${/}page_pricing.py
 Variables      ${EXECDIR}${/}RESOURCES${/}RESOURCE_MAPPING${/}PAGES${/}page_help_centre.py
+Variables      ${EXECDIR}${/}RESOURCES${/}RESOURCE_MAPPING${/}PAGES${/}page_web_training.py
 
 *** Keywords ***
 Perform Generic Test Setup
