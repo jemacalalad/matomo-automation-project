@@ -48,3 +48,13 @@ Access Help Centre Page
     Should Be Equal                      ${heading_text}                                ${SPIELS_HELP_CENTRE['HEADING_HELP_CENTRE']}
     Element Should Be Visible            ${PAGE_HELP_CENTRE['INPUT_SEARCH']}
     Element Should Be Visible            ${PAGE_HELP_CENTRE['BUTTON_SEARCH']}
+
+Verify Images In Homepage
+    [Documentation]                      All images in the homepage should not be broken
+    [Tags]                               smoke
+    Get All Specified Elements On Page And Return The Links     ${PAGE_HOME['IMAGE_GENERIC']}   image
+
+Verify Links In Homepage
+    [Documentation]                      All links in the homepage should not be broken
+    [Tags]                               smoke
+    Get All Specified Elements On Page And Return The Links     ${PAGE_HOME['LINK_GENERIC']}   link
