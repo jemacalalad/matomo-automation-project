@@ -4,6 +4,7 @@ Library        SeleniumLibrary
 Library        RequestsLibrary
 Resource       ${EXECDIR}${/}CONFIG${/}SELENIUM_CONFIG.robot
 Resource       ${EXECDIR}${/}CONFIG${/}URLS.robot
+Resource       ${EXECDIR}${/}RESOURCES${/}KEYWORDS${/}KEYWORDS_MENU.robot
 Variables      ${EXECDIR}${/}CONFIG${/}SPIELS${/}spiels_home.py
 Variables      ${EXECDIR}${/}CONFIG${/}SPIELS${/}spiels_product_features.py
 Variables      ${EXECDIR}${/}CONFIG${/}SPIELS${/}spiels_pricing.py
